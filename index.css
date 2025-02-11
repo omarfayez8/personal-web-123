@@ -1,8 +1,29 @@
-body{
+body {
     background-color: black;
     text-align: center;
     color: aliceblue;
 }
-img{
+
+img {
     border-radius: 20px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    display: inline-block;
+}
+
+td {
+    border: 2px solid aqua;
+    padding: 20px;
+}
+
+#textbox {
+    border: 2px solid aqua;
+    width: 400px;
 }
